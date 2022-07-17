@@ -1,14 +1,14 @@
 # 学生信息管理系统-在线
 这是学生信息管理系统的在线版，最大的不同之处在于编辑学生\用户登录数据都是在服务器端进行
 # 使用方法
-选择你要下载的端（客户端选client文件夹，服务端选server文件夹）
-然后把所有文件都下下来
-一般要部署建议直接在服务器上[^git clone]
-然后把client扔到`/var/www/html`(也有可能不是这个地方，以所使用的服务器软件)，把对应软件的服务打开
-运行server内的server.py,运行前先检查Python版本是不是3.x(推荐3.10)
-然后在需要安装客户端的电脑上，先用刚刚这个IP的80端口下载客户端文件，下载下来后直接运行（默认已安装Python或使用的是发布版），初次使用需要绑定IP，把服务器IP填进去就行
-默认账户名：admin
-默认密码：123456789
-登录后执行任何操作都不会验证权限，所以可以把自己删了（
-管理员的权限很大，大到可以在服务器执行Python代码，而且还能用\n换行，所以不要乱给权限
-[^git clone]:git clone https://github.com/ouyanghongqian/studentsystemonline.git
+选择你要下载的端（客户端选client文件夹，服务端选server文件夹）<br/>
+然后把所有文件都下下来<br/>
+一般要部署建议直接在服务器上[^gitclone]<br/>
+然后把client扔到`/var/www/html`(也有可能不是这个地方，以所使用的服务器软件)，把对应软件的服务打开<br/>
+运行server内的server.py,运行前先检查Python版本是不是3.x(推荐3.10)<br/>
+然后在需要安装客户端的电脑上，先用刚刚这个IP的80端口下载客户端文件，下载下来后直接运行（默认已安装Python或使用的是发布版），初次使用需要绑定IP，把服务器IP填进去就行<br/>
+默认账户名：admin<br/>
+默认密码：123456789<br/>
+登录后执行任何操作都不会验证权限，所以可以把自己删了（<br/>
+管理员的权限很大，大到可以在服务器执行Python代码，而且还能用\n换行，所以不要乱给权限<br/>
+[^gitclone]:git clone https://github.com/ouyanghongqian/studentsystemonline.git

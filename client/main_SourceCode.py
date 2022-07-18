@@ -3,9 +3,8 @@ import sys
 import time
 def getServerIP():
     configFileText=readConfig()
-    if configFileText[0]=="none":
-        setServerIP()
-        getServerIP()
+    if configFileText[0] == "none":
+        return setServerIP()
     else:
         return configFileText[0]
 def setServerIP():
@@ -14,7 +13,7 @@ def setServerIP():
     configFileText=readConfig()
     configFileText[0]=ip
     writeConfig(configFileText)
-    return True
+    return configFileText[0]
 def writeConfig(configFileText):
     with open("config.sso-client-config","w",encoding="utf-8")as configFile:
         for i in configFileText:
